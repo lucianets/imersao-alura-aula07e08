@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,200&family=Quicksand:wght@300&family=Ubuntu:ital,wght@1,300&display=swap" rel="stylesheet">
+<head>
+    <meta charset="UTF-8">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title> Imersão Dev - Aula 07&08 </title>
+</head>
+
+<body>
+    <div class="container">
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-super-trunfo.png" class="page-logo"
+            alt="">
+            
+        <h1 class="page-title"> Super Trunfo - Skywalker Family</h1> 
+
+        <button onclick="sortearCarta()" id="btnSortear">Sortear carta</button>
+
+        <form id="form">
+            <h2 class="atributo">Escolha o seu atributo para jogar!</h2>
+            <p id="pontos"></p>
+            <div id="cartas">
+                <div id="carta-jogador"> </div> <div id="carta-maquina"> </div>
+            </div>
+            <div class="opcoes" id="opcoes"></div>
+            <br>
+            <div id="resultado"></div>
+            <br>
+            <button type="button" id="btnJogar" onclick="jogar()" disabled="false">Jogar</button> 
+            <button type="button" id="btnProxima" onclick="proximaRodada()" disabled="false"> Próxima Rodada </button>
+            <br>
+            <button type="button" id="btnReiniciar" onclick="reiniciarJogo()">Reiniciar jogo</button>
+        </form>
+    </div>
+</body>
+
+</html>
