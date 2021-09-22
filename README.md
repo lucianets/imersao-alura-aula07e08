@@ -13,4 +13,4 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ### Você pode jogar aqui:
  
- [JOGO](https://jogotrunfoskywalkerfamily.netlify.app/)
+ [Super Trunfo - Skywalker Family](https://jogotrunfoskywalkerfamily.netlify.app/)
